@@ -12,11 +12,11 @@ separacion = np.split(union, 2)
 
 # Mostrar datos
 
-print("Union: \n", np.stack((altura, peso), axis = 1))
-print("\nUnion: \n", np.concatenate((altura, peso)))
+print("Union de altuta y peso: \n", np.stack((altura, peso), axis = 1))
+print("\nConcatenacion: \n", np.concatenate((altura, peso)))
 
 print("\nUnion: \n", union, type(union))
 print("\nSeparacion: \n", separacion, type(separacion))
 
-print("\nSuma de filas: \n", np.sum(matriz_2D, axis = 0))	
-print("\nSuma de columnas: \n", np.sum(matriz_2D, axis = 1))
+print("\nSuma de filas (matriz): \n", np.sum(matriz_2D, axis = 0))	
+print("\nSuma de columnas (matriz): \n", np.sum(matriz_2D, axis = 1))
