@@ -1,6 +1,4 @@
 
-# Libreria
-
 import numpy as np
 
 # Listas y matrices
@@ -15,5 +13,5 @@ matriz_par = np.append(matriz_par, 8)
 
 # Mostrar datos
 
-print(f"Lista Impar: {lista_impar}")
-print(f"Matriz par: {matriz_par}")
+print(f'Lista Impar: {lista_impar}')
+print(f'Matriz par: {matriz_par}')
