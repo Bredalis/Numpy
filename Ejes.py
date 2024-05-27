@@ -10,7 +10,8 @@ separacion = np.split(union, 2)
 
 # Mostrar datos
 
-print("Union de altuta y peso (Columnas): \n", np.stack((altura, peso), axis = 1))
+print("Union de altuta y peso (Columnas): \n", 
+	np.stack((altura, peso), axis = 1))
 print("\nConcatenacion: \n", np.concatenate((altura, peso)))
 
 print("\nUnion (Filas): \n", union, type(union))
